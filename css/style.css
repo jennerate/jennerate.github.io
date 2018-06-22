@@ -1,0 +1,123 @@
+.name {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+}
+
+.underline {
+    display: inline;
+    position: relative;
+  }
+
+.underline:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    width: 0;
+    top: 3rem;
+    background: #000;
+    height: 4px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.underline:hover:after,
+.underline:focus:after,
+
+.underline:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+.nav-links a:link {
+    color: black;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav-links a:active {
+    color: black;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: black;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.nav-links p {
+    display: inline-block;
+    margin: auto;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.navbar-top {
+    margin: 5rem;
+}
+
+
+.blue-background {
+    background-color: #0000ff;
+    margin-right: 1rem;
+}
+
+.img-resizing {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.peach-background {
+    background-color: #F9C1B1;
+}
+
+.first-projects {
+    display: flex;
+}
+
+.project {
+    position: relative;
+  }
+
+.project-description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(31, 31, 31, 0.4);
+    color: #fff;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .2s, visibility .2s;
+}
+
+.project:hover .project-description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.project-description-text {
+    font-family: Futura;
+    font-size: 4rem;
+}
+
+.second-projects {
+    padding-top: 5rem;
+}
