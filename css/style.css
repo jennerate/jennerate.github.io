@@ -145,3 +145,86 @@
 .orange-background {
    background-color: #7CFFCB;
 }
+
+.intro-sentence {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.personal-description {
+    font-family: Lato;
+    font-size: 1.75rem;
+}
+
+.links {
+    font-family: Lato;
+    font-size: 1.75rem;
+    color: black;
+    margin-top: 6rem;
+    font-weight: 700;
+}
+
+.list-styling {
+    list-style-type: none;
+}
+
+.list-styling li {
+    line-height: 3.25rem;
+}
+
+.underline-list {
+    display: inline;
+    position: relative;
+  }
+
+.underline-list:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    width: 0;
+    top: 2rem;
+    background: #000;
+    height: 4px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.underline-list:hover:after,
+.underline-list:focus:after,
+
+.underline-list:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+.email-styling {
+    color: black;
+    font-family: Lato;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.personal-description a {
+    font-size: 1.75rem;
+    font-family: Lato;
+    color: black;
+    font-weight: 700;
+}
+
+.personal-description a:active, a:visited, a:focus, a:hover {
+    text-decoration: none;
+}
