@@ -39,7 +39,7 @@
 .nav-links a:link {
     color: black;
     font-family: Lato;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 2rem;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@
 .nav-links a:active {
     color: black;
     font-family: Lato;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 2rem;
     text-decoration: none;
 }
@@ -55,7 +55,7 @@
 .nav-links a {
     color: black;
     font-family: Lato;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 2rem;
 }
 
