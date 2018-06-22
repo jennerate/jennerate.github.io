@@ -1,9 +1,7 @@
-.name {
-    font-family: Lato;
-    font-weight: 400;
-    font-size: 3rem;
-    text-align: center;
-    position: relative;
+.name-styling {
+    width: 20%;
+    height: auto;
+    float: left;
 }
 
 .underline {
@@ -34,10 +32,14 @@
     width: 100%;
 }
 
+.nav-links {
+    text-align: right;
+}
+
 .nav-links a:link {
     color: black;
     font-family: Lato;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 2rem;
     text-decoration: none;
 }
@@ -45,7 +47,7 @@
 .nav-links a:active {
     color: black;
     font-family: Lato;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 2rem;
     text-decoration: none;
 }
@@ -53,7 +55,7 @@
 .nav-links a {
     color: black;
     font-family: Lato;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 2rem;
 }
 
@@ -67,7 +69,6 @@
 .navbar-top {
     margin: 5rem;
 }
-
 
 .blue-background {
     background-color: #0000ff;
@@ -115,7 +116,7 @@
 
 .project-description-text {
     font-family: Futura;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .second-projects {
@@ -142,5 +143,5 @@
 }
 
 .orange-background {
-    background-color: #7CFFCB;
+   background-color: #7CFFCB;
 }
