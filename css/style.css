@@ -72,7 +72,6 @@
 
 .blue-background {
     background-color: #0000ff;
-    margin-right: 1rem;
 }
 
 .img-resizing {
@@ -82,12 +81,13 @@
     margin: auto;
 }
 
-.peach-background {
-    background-color: #F9C1B1;
+.navigate-img {
+    padding-top: 3.3%;
+    padding-bottom: 3.3%;
 }
 
-.first-projects {
-    display: flex;
+.peach-background {
+    background-color: #F9C1B1;
 }
 
 .project {
@@ -119,14 +119,8 @@
     font-size: 3rem;
 }
 
-.second-projects {
-    padding-top: 2rem;
-    display: flex;
-}
-
-.green-background {
+.orange-background {
     background-color: #FE5858;
-    margin-right: 1rem;
 }
 
 .div-illustration {
@@ -134,16 +128,14 @@
 }
 
 .img-resizing-illustrations {
-    width: 65%;
+    width: 61%;
     height: auto;
-    position: absolute;
-    bottom: 0;
     display: block;
-    left: 16%;
+    margin: auto;
 }
 
-.orange-background {
-   background-color: #7CFFCB;
+.green-background {
+   background-color: #7CFFCB;    
 }
 
 .intro-sentence {
@@ -227,4 +219,14 @@
 
 .personal-description a:active, a:visited, a:focus, a:hover {
     text-decoration: none;
+}
+
+.hr-spacing {
+    margin-top: 3rem;
+}
+
+@media (max-width: 1200px) {
+    .hr-spacing  {
+        margin-top: 0rem;
+    }
 }
