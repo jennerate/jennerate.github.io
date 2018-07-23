@@ -120,7 +120,8 @@
 }
 
 .project-description-text {
-    font-family: Futura;
+    font-family: Lato;
+    font-weight: 400;
     font-size: 3rem;
 }
 
