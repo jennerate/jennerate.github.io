@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Circular-Black";
+    src: url(../types/circular-black.otf);
+    font-family: "Circular-Medium";
+    src: url(../types/circular-medium.otf);
+}
+
 .name-styling {
     width: 8rem;
     margin-top: 1rem;
@@ -40,7 +47,7 @@
 
 .nav-links a:link {
     color: black;
-    font-family: Lato;
+    font-family: Circular-Medium;
     font-weight: 400;
     font-size: 2rem;
     text-decoration: none;
@@ -48,7 +55,7 @@
 
 .nav-links a:active {
     color: black;
-    font-family: Lato;
+    font-family: Circular-Medium;
     font-weight: 400;
     font-size: 2rem;
     text-decoration: none;
@@ -56,7 +63,7 @@
 
 .nav-links a {
     color: black;
-    font-family: Lato;
+    font-family: Circular-Medium;
     font-weight: 400;
     font-size: 2rem;
 }
@@ -120,7 +127,7 @@
 }
 
 .project-description-text {
-    font-family: Lato;
+    font-family: Circular-Medium;
     font-weight: 400;
     font-size: 3rem;
 }
@@ -145,7 +152,7 @@
 }
 
 .intro-sentence {
-    font-family: Lato;
+    font-family: Circular-Medium;
     font-weight: 700;
     font-size: 5rem;
 }
@@ -232,3 +239,4 @@
     width: 5%;
     height: auto;
 }
+
