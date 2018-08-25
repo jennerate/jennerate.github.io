@@ -90,7 +90,7 @@
     margin: auto;
 }
 
-.sitterfix-img {
+.companion-img, .navigate-img {
     width: 100%;
     height: auto;
     display: block;
@@ -106,30 +106,17 @@
     position: relative;
   }
 
+
+.project-name {
+    font-family: "Circular-Medium";
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
 .project-description {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(31, 31, 31, 0.4);
-    color: #fff;
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: opacity .2s, visibility .2s;
-}
-
-.project:hover .project-description {
-    visibility: visible;
-    opacity: 1;
-}
-
-.project-description-text {
-    font-family: Circular-Medium;
-    font-weight: 400;
-    font-size: 3rem;
+    font-family: "Circular-Medium";
+    font-size: 1.5rem;
 }
 
 .orange-background {
@@ -141,14 +128,15 @@
 }
 
 .img-resizing-illustrations {
-    width: 51.5%;
+    width: 73.9%;
     height: auto;
     display: block;
     margin: auto;
 }
 
 .green-background {
-   background-color: #7CFFCB;    
+   background-color: #7CFFCB; 
+   width: 100%;   
 }
 
 .intro-sentence {
