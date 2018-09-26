@@ -6,10 +6,8 @@
 }
 
 .name-styling {
-    width: 8rem;
-    margin-top: 1rem;
+    width: 5rem;
     height: auto;
-    float: left;
 }
 
 .underline {
@@ -41,9 +39,11 @@
 }
 
 .nav-links {
-    text-align: right;
+    float: right;
     margin-top: 1rem;
 }
+
+
 
 .nav-links a:link {
     color: black;
@@ -79,16 +79,14 @@
     margin: 5rem;
 }
 
+.alignment {
+    display: inline-block;
+}
+
 .blue-background {
     background-color: #0000ff;
 }
 
-.img-resizing {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
-}
 
 .companion-img, .navigate-img {
     width: 100%;
@@ -97,6 +95,13 @@
     margin: auto;
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+.compair-resizing {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
 .peach-background {
     background-color: #F9C1B1;
