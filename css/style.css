@@ -233,3 +233,16 @@
     height: auto;
 }
 
+.sparkles-styling {
+    width: 2%;
+    animation: mover 1s infinite  alternate;
+}
+
+@keyframes mover {
+    0% { 
+        transform: translateY(-5px); 
+    }
+    100% { 
+        transform: translateY(5px);
+    }
+}
