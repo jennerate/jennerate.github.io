@@ -7,7 +7,7 @@
 
 .title-video {
     font-family: Lato;
-    weight: 400;
+    font-weight: 400;
     font-size: 3rem;
     text-align: right;
     color: white;
@@ -15,7 +15,8 @@
 
 .blue-container {
     background-color: #0086F0;
-    padding: 2rem;
+    padding: 4rem;
+    margin-bottom: 3rem;
 }
 
 .project-title {
@@ -27,10 +28,9 @@
 
 .title {
     font-family: Circular-Medium;
-    font-weight: 700;
     font-size: 3rem;
     color: black;
-    width: 75%;
+    width: 65%;
     display: block;
     margin: auto;
     margin-bottom: 1rem;
@@ -42,7 +42,7 @@
     font-size: 1.75rem;
     font-weight: 400;
     color: #38333B;
-    width: 75%;
+    width: 65%;
     display: block;
     margin: auto;
     padding-top: 1rem;
@@ -58,7 +58,7 @@
     font-weight: 700;
     font-size: 1.75rem;
     color: #38333B;
-    width: 75%;
+    width: 65%;
     display: block;
     margin: auto;
 }
@@ -66,6 +66,11 @@
 .video-styling {
     width: 58%;
     height: auto;
+    float: right;
+}
+
+.caption {
+    float: left;
 }
 
 .video-title {
@@ -76,13 +81,14 @@
 }
 
 .video-description {
+    width: 80%;
+    float: right;
     text-align: right;
     font-family: Lato;
     font-size: 2rem;
+    line-height: 2rem;
     font-weight: 400;
     color: white;
-    padding-left: 2rem;
-    margin-left: 2rem;
 }
 
 .video-alignment {
@@ -96,7 +102,8 @@
 
 .img-resizing {
     width: 100%;
-    margin: 2rem;
+    display: block;
+    margin: auto;
 }
 
 .sparkles-styling {
@@ -127,7 +134,7 @@
 }
 
 .img-resizing-block {
-    width: 75%;
+    width: 65%;
     display: block;
     margin: auto;
 }
@@ -135,5 +142,60 @@
 
 .video-blurring {
     box-shadow: 0px 0px 10px 10px rgb(35,145,241);
+}
+
+
+.img-resizing-block:hover {
+    transform: scale(1.5); 
+    transition: all .2s ease-in-out;
+}
+
+.goals-title {
+    font-family: Circular-Medium;
+    font-size: 2rem;
+    color: black;
+    margin: 0;
+}
+
+.goals-description {
+    font-family: Lato;
+    font-size: 1.75rem;
+    color: black;
+}
+
+.goals-block {
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+
+.icon-styling {
+    display: block;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.archetypes-row {
+    width: 65%;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.archetype-title {
+    font-family: Circular-Medium;
+    font-size: 2rem;
+}
+
+.archetype-description {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+.ar-block {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
 }
 
