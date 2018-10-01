@@ -5,6 +5,11 @@
     src: url(../types/circular-medium.otf);
 }
 
+@font-face {
+    font-family: "CaslonGraphique";
+    src: url(../types/CaslonGraphiqueSHOP-Reg.otf);
+}
+
 .title-video {
     font-family: Lato;
     font-weight: 400;
@@ -33,7 +38,6 @@
     width: 65%;
     display: block;
     margin: auto;
-    margin-bottom: 1rem;
 }
 
 .description {
@@ -45,7 +49,6 @@
     width: 65%;
     display: block;
     margin: auto;
-    padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
@@ -137,6 +140,14 @@
     width: 65%;
     display: block;
     margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.img-resizing-65 {
+    width: 65%;
+    display: block;
+    margin: auto;
 }
 
 
@@ -199,3 +210,193 @@
     vertical-align: top;
 }
 
+.description-quote {
+    font-family: Lato, italic;
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-style: italic;
+    width: 65%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.hovering-a, .hovering-a:hover {
+    color: black;
+    font-family: Lato;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+li {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.75rem;
+    display: block;
+    margin: auto;
+    width: 65%;
+    line-height: 1;
+}
+
+.emphasis-text-li {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: black;
+    display: inline-block;
+    width: 23%;
+    float: left;
+    text-align: right;
+}
+
+.description-text-li {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.75rem;
+    color: black;
+    display: inline-block;
+    vertical-align: top;
+    word-wrap: break-word;
+    width: 75%;
+    margin-left: 1rem;
+}
+
+.li-row {
+    width: 65%;
+    display: block;
+    margin: auto;
+}
+
+.chart-row {
+    width: 65%;
+    display: block;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.question {
+    font-family: Circular-Medium;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    color: black;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.insight {
+    font-family: Lato;
+    font-size: 1.75rem;
+    color: black;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.light-blue-background {
+    background-color: #c2dcf7;
+    display: flex;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+}
+
+.vid-text {
+    font-family: CaslonGraphique;
+    font-size: 2rem;
+    margin-left: 8rem;
+    width: 165%;
+    text-align: right;
+    z-index: 2;
+    position: relative;
+}
+
+.video-styling-companion {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.space {
+    margin-bottom: 3rem;
+}
+
+.underline {
+    display: inline;
+    position: relative;
+  }
+
+.underline:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    width: 0;
+    top: 3rem;
+    background: #000;
+    height: 4px;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.underline:hover:after,
+.underline:focus:after,
+
+.underline:active:after {
+    left: 0;
+    right: auto;
+    width: 100%;
+}
+
+
+.alignment {
+    display: inline-block;
+}
+
+.name-styling {
+    width: 5rem;
+    height: auto;
+}
+
+.nav-links {
+    float: right;
+    margin-top: 1rem;
+}
+
+
+
+.nav-links a:link {
+    color: black;
+    font-family: Circular-Medium;
+    font-weight: 400;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav-links a:active {
+    color: black;
+    font-family: Circular-Medium;
+    font-weight: 400;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: black;
+    font-family: Circular-Medium;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.nav-links p {
+    display: inline-block;
+    margin: auto;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+.navbar-top {
+    margin: 5rem;
+}

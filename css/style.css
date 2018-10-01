@@ -94,9 +94,12 @@
     display: block;
     margin: auto;
     padding-top: 2%;
-    padding-bottom: 2%;
 }
 
+
+.companion-img {
+    padding-top: 13.7rem;
+}
 .compair-resizing {
     width: 100%;
     height: auto;
@@ -246,3 +249,4 @@
         transform: translateY(5px);
     }
 }
+

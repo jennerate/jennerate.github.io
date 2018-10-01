@@ -3,7 +3,7 @@
     <head>
         <title>Google Jobs</title>
         <link rel="icon" href="assets/wavinghand.png">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/jobs.css">
@@ -11,10 +11,21 @@
     </head>
     <body>
         <div class="container">
+            <div class="container-fluid">
+                <div class="row navbar-top">
+                    <a href="index.html" class="alignment">
+                        <img src="assets/name.png" class="name-styling" alt="logo">
+                    </a>
+                    <div class="nav-links alignment">
+                        <p><a href="index.html" class="underline">Work</a></p>
+                        <p><a href="about.html" class="underline">About</a></p>
+                    </div>
+                </div>
+            </div>
             <div class="case-row">
                 <p class="title">Context</p>
                 <p class="description">Google recently released Google Jobs Board, a job aggregation tool which scrapes job postings from various websites. The tool aims to reduce repetitive job postings that users see when visiting multiple job boards, and does a pretty good job (ha-ha) at that. I noticed a number of usability issues when I was using the tool which made the content both congested and at points, overwhelming. As a designer, this made me wonder.</p>
-                <img class="img-resizing-block" src="assets/problem-statement.png">
+                <img class="img-resizing-65" src="assets/problem-statement.png">
             </div>
             <div class="case-row">
                 <p class="title">Process</p>
@@ -23,7 +34,7 @@
             </div>
             <div class="case-row">
                 <p class="title">Usability Testing</p>
-                <img class="img-shadowing img-resizing-block" src="assets/heuristic.png"/>
+                <img class="img-shadowing img-resizing-65" src="assets/heuristic.png"/>
                 <p class="description">I needed a way to validate or reject my initial assumptions. To do this, I conducted a usability test based on Jakob Nielson's 10 user interface heuristics with 5 participants and tasked participants with the following scenario.</p>
                 <p class="emphasis-text">You are applying to your dream job on the Google Jobs Board</p>
                 <p class="description">I asked participants to provide a stream of consciousness as they acted out the prompt. In an attempt to mimic real life I did not provide hints unless asked, as people are usually unable to ask the person besides them for help. This was strategic because it identified usability issues that would otherwise go unnoticed by receiving prompts. I expected participants to have a positive experiences with a Google product, but most of them actually found the interface overwhelming. To my surprise, most participants did not use the job title and employer filter options to refine their query. Their initial impression upon entering these components was confusion due to the sheer amount of information displayed in each tab. Here are some of their other responses.</p>
