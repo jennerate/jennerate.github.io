@@ -280,7 +280,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ["1", "2", "3", "4", "5"],
         datasets: [{
-            label: 'Number of Submissions',
+            label: 'Rating',
             data: [0, 1, 7, 9, 7],
             backgroundColor: [
                 "#ffefe7",
@@ -298,7 +298,15 @@ var myChart = new Chart(ctx, {
             labels: {
                 boxWidth: 10
             }
-        }
+        },
+        scales: {
+            yAxes: [{
+              scaleLabel: {
+                display: true,
+                labelString: 'Number of Submissions'
+              }
+            }]
+        }   
     }
 });
 
@@ -308,7 +316,7 @@ var myChart = new Chart(wellnessPlan, {
     data: {
         labels: ["1", "2", "3", "4", "5", "6", "7","8","9","10"],
         datasets: [{
-            label: 'Number of Submissions',
+            label: 'Rating',
             data: [4, 1, 2, 0, 6, 2, 3, 1, 1,0],
             backgroundColor: [
                 "#ffefe7",
@@ -322,7 +330,8 @@ var myChart = new Chart(wellnessPlan, {
                 "#FF9C8B",
                 "#FFC0B5",
             ],
-        }]
+        }],
+        xAxisID: "test"
     },
     options: {
         animationEasing : "easeOutBounce",
@@ -331,7 +340,15 @@ var myChart = new Chart(wellnessPlan, {
             labels: {
                 boxWidth: 10
             }
-        }
+        },
+        scales: {
+            yAxes: [{
+              scaleLabel: {
+                display: true,
+                labelString: 'Number of Submissions'
+              }
+            }]
+        }   
     }
 });
 
@@ -341,7 +358,7 @@ var myChart = new Chart(satisfaction, {
     data: {
         labels: ["1", "2", "3", "4", "5", "6", "7","8","9","10"],
         datasets: [{
-            label: 'Number of Submissions',
+            label: 'Rating',
             data: [3, 0, 4, 0, 4, 2, 4, 4, 1,0],
             backgroundColor: [
                 "#002145",
@@ -364,6 +381,14 @@ var myChart = new Chart(satisfaction, {
             labels: {
                 boxWidth: 10
             }
-        }
+        },
+        scales: {
+            yAxes: [{
+              scaleLabel: {
+                display: true,
+                labelString: 'Number of Submissions'
+              }
+            }]
+        }   
     }
 });
