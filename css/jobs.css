@@ -294,7 +294,7 @@ li {
 }
 
 .light-blue-background {
-    background-color: #c2dcf7;
+    /* background-color: #c2dcf7; */
     display: flex;
     align-items: center;
     width: 65%;
@@ -305,7 +305,7 @@ li {
     font-family: CaslonGraphique;
     font-size: 2rem;
     margin-left: 8rem;
-    width: 165%;
+    width: 100%;
     text-align: right;
     z-index: 2;
     position: relative;
