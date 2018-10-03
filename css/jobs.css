@@ -10,6 +10,14 @@
     src: url(../types/CaslonGraphiqueSHOP-Reg.otf);
 }
 
+.container-web {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+
+
 .title-video {
     font-family: Lato;
     font-weight: 400;
@@ -355,11 +363,12 @@ li {
     display: inline-block;
 }
 
+
 .name-styling, .name-styling:active, .name-styling:hover {
     font-family: CaslonGraphique;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: black;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
 }
 
 .nav-links {
