@@ -2,83 +2,110 @@
 <html lang="en">
     <head>
         <title>Jenny Gechen</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link rel="icon" href="assets/logo.png">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
     <body>
         <div class="container">
-            <div class="container-fluid">
-                <div class="row navbar-top">
-                        <a href="index.html" class="alignment">
-                                <img src="assets/sparkles.png" class="sparkles-styling" alt="sparkles">
-                                <img src="assets/name.png" class="name-styling" alt="logo">
-                                <img src="assets/sparkles.png" class="sparkles-styling" alt="sparkles">
+            <div class="container-fluid container-web">
+                <header class="header nav-down navbar-shadow">
+                    <div class="row">
+                        <a href="index.html" class="alignment mobile-col web-col-left">
+                            <p class="name-styling">jenn.</p>
+                        </a>
+                        <div class="nav-links alignment web-col-right">
+                            <p><a href="index.html" class="underline">Work</a></p>
+                            <p><a href="about.html" class="underline">About</a></p>
+                        </div>
+                        <div class="dropdown mobile-col">
+                            <a class="btn dropdown-toggle btn-width" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="assets/hamburger-menu.svg" class="hamburger-menu-styling">
                             </a>
-                    <div class="nav-links alignment">
-                        <p><a href="index.html" class="underline">Work</a></p>
-                        <p><a href="about.html" class="underline">About</a></p>
+                            <div class="dropdown-menu pull-right" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="index.html">Home</a>
+                                <a class="dropdown-item" href="about.html">About</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                </header> 
             </div>
-            <div class="container-fluid">
+            <div class="container-fluid header-margin">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="larger-container">
                         <div class="project">
-                            <div class="peach-background">
-                                <a href="companion.html" target="_blank" >
-                                    <img src="assets/companion-mocked-cropped.png" class="companion-img" alt="companion preview">
-                                </a>
-                            </div>
-                            <p class="project-name">Companion</p>
-                            <p class="project-description">A UX/UI project that provides better counselling experiences for UBC students.</p>
+                            <a href="companion.html" target="_blank" >
+                                <div class="blue-background" id="img1">
+                                    <img src="assets/google.jpg" class="jobs-img" alt="google jobs preview">
+                                </div>
+                            </a>
+                            <p class="project-name">Google Jobs Board</p>
+                            <p class="project-description">A UX/UI project aims to simplify information rich content.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                            <div class="project">
-                                <div class="blue-background">
-                                    <a href="https://medium.com/@jenngechen/designing-for-accessibility-34d504dd4005" target="_blank" >
-                                        <img src="assets/navigate-website.png" class="navigate-img" alt="navigate preview">
-                                    </a>
+                    <div class="vr-spacing"></div>
+                    <div class="smaller-container">
+                        <div class="project">
+                            <a href="google-jobs.html" target="_blank" >
+                                <div class="peach-background" id="img2">
+                                    <img src="assets/companion-mocked.png" class="companion-img" alt="companion preview">
                                 </div>
-                                <p class="project-name">Navigate</p>
-                                <p class="project-description">A UX/UI case study centered around making travelling more accessible.</p>
-                            </div>
+                            </a>
+                            <p class="project-name">Companion</p>
+                            <p class="project-description">A UX/UI project that makes counselling more accessible.</p>
                         </div>
+                    </div>
                 </div>
                 <div class="row hr-spacing"></div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="smaller-container">
                         <div class="project">
-                            <div class="orange-background">
-                                <a href="https://jennerate.github.io/compair/index.html" target="_blank">
+                            <a href="https://jennerate.github.io/compair/index.html" target="_blank">
+                                <div class="orange-background" id="img4">
                                     <img src="assets/compair.png" class="compair-resizing" alt="compair preview">
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                             <p class="project-name">Compair</p>
-                            <p class="project-description">Font pairing web application that helps users pair Google Fonts before commiting to them.</p>
+                            <p class="project-description">A web application that pairs Google Fonts.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="project div-illustration">
-                            <div class="green-background">
-                                <a href="https://www.instagram.com/tabletopmami/" target="_blank">
+                    <div class="vr-spacing"></div>
+                    <div class="larger-container">
+                        <div class="project">
+                            <a href="https://medium.com/@s93tan/case-study-30-60-f05bd94e14ac" target="_blank" >
+                                <div class="purple-background"  id="img3">
+                                    <img src="assets/3060.png" class="thirtysixtystyling">
+                                </div>
+                            </a>
+                            <p class="project-name">30/60</p>
+                            <p class="project-description">A UX, UI, and coding case study that makes workouts fun.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr-spacing"></div>
+                <div class="row">
+                    <div class="project">
+                            <a href="https://www.instagram.com/tabletopmami/" target="_blank">
+                                <div class="green-background" id="img5">
                                     <img src="assets/yeezy-website.png" class="img-resizing-illustrations" alt="illustrations preview">
-                                </a>
-                            </div>
+                                </div>
+                            </a>
                             <p class="project-name">Illustrations</p>
-                                <p class="project-description">Kanye West? Don't know what you're talking about. Never heard of him.</p>
+                                <p class="project-description">Here are a few of my favourite things.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         <div class="footer">
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>

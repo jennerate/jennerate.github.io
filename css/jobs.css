@@ -355,10 +355,11 @@ li {
     display: inline-block;
 }
 
-.name-styling {
-    width: 5rem;
-    height: auto;
-    margin-top: 2rem; 
+.name-styling, .name-styling:active, .name-styling:hover {
+    font-family: CaslonGraphique;
+    font-size: 2.5rem;
+    color: black;
+    margin-top: 1rem;
 }
 
 .nav-links {

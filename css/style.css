@@ -5,10 +5,32 @@
     src: url(../types/circular-medium.otf);
 }
 
-.name-styling {
-    width: 5rem;
-    height: auto;
-    margin-top: 2rem; 
+@font-face {
+    font-family: "CaslonGraphique";
+    src: url(../types/CaslonGraphiqueSHOP-Reg.otf);
+}
+
+
+.name-styling, .name-styling:active, .name-styling:hover {
+    font-family: CaslonGraphique;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 1.3rem;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.hamburger-menu-styling {
+    display: none;
+}
+
+.container-web {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
 }
 
 .underline {
@@ -22,7 +44,7 @@
     z-index: -1;
     right: 0;
     width: 0;
-    top: 3rem;
+    top: 2rem;
     background: #000;
     height: 4px;
     transition-property: width;
@@ -39,9 +61,19 @@
     width: 100%;
 }
 
+.web-col-left {
+    width: 50%;
+    float: left;
+}
+
+.web-col-right {
+    text-align: right;
+    width: 50%;
+}
+
 .nav-links {
     float: right;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 
 
@@ -50,7 +82,7 @@
     color: black;
     font-family: Circular-Medium;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
@@ -58,7 +90,7 @@
     color: black;
     font-family: Circular-Medium;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
@@ -66,7 +98,7 @@
     color: black;
     font-family: Circular-Medium;
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .nav-links p {
@@ -80,35 +112,87 @@
     margin: 5rem;
 }
 
+.mobile-col {
+    display: none;
+}
+
 .alignment {
     display: inline-block;
 }
 
 .blue-background {
-    background-color: #0000ff;
+    background-color: #4885ed;
+    height: 250px;
+}
+
+.purple-background {
+    background-color: #252755;
+    height: 250px;
 }
 
 
-.companion-img, .navigate-img {
-    width: 100%;
+.top {
+    padding-top: 2.9rem;
+}
+
+.jobs-img {
+    width: 45%;
     height: auto;
     display: block;
     margin: auto;
-    padding-top: 2%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
 
 .companion-img {
-    padding-top: 13.7rem;
-}
-.compair-resizing {
-    width: 100%;
+    width: 21%;
     height: auto;
     display: block;
     margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
+
+
+.thirtysixtystyling {
+    width: 17%;
+    height: auto;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.compair-resizing {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .peach-background {
     background-color: #F9C1B1;
+    height: 250px;
+}
+
+.smaller-container {
+    width: 40%;
+    height: 330px;
+}
+
+.larger-container {
+    width: 55%;
+    height: 330px;
+}
+
+.vr-spacing {
+    width: 45px;
 }
 
 .project {
@@ -118,18 +202,20 @@
 
 .project-name {
     font-family: "Circular-Medium";
-    font-size: 2.5rem;
+    font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 0;
+    text-transform: uppercase;
 }
 
 .project-description {
     font-family: "Circular-Medium";
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .orange-background {
     background-color: #FE5858;
+    height: 250px;
 }
 
 .div-illustration {
@@ -137,8 +223,14 @@
 }
 
 .img-resizing-illustrations {
-    width: 73.9%;
+    width: 30%;
     height: auto;
+    display: block;
+    float: left;
+}
+
+.first-line {
+    width: 70%;
     display: block;
     margin: auto;
 }
@@ -151,12 +243,12 @@
 .intro-sentence {
     font-family: Circular-Medium;
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 .personal-description {
     font-family: Lato;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
 }
 
 
@@ -179,7 +271,7 @@
     z-index: -1;
     right: 0;
     width: 0;
-    top: 4rem;
+    top: 1.9rem;
     background: #000;
     height: 4px;
     transition-property: width;
@@ -205,8 +297,9 @@
     margin: auto;
     padding-top: 5rem;
 }
+
 .personal-description a {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     font-family: Lato;
     color: black;
     font-weight: 700;
@@ -217,13 +310,7 @@
 }
 
 .hr-spacing {
-    margin-top: 3rem;
-}
-
-@media (max-width: 990px) {
-    .hr-spacing  {
-        margin-top: 0rem;
-    }
+    height: 45px;
 }
 
 .img-resizing-profile {
@@ -237,17 +324,358 @@
     height: auto;
 }
 
-.sparkles-styling {
-    width: 2%;
-    animation: mover 1s infinite  alternate;
+.dropdown {
+    display: none;
 }
 
-@keyframes mover {
-    0% { 
-        transform: translateY(-5px); 
+
+@media screen and (min-width: 320px) and (max-width: 321px) {
+    .smaller-container {
+        width: 100vw;
+        height: 70vh !important;
     }
-    100% { 
-        transform: translateY(5px);
+
+    .larger-container {
+        width: 100vw;
+        height: 70vh !important;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 376px) and (max-height: 668px) {
+    .smaller-container {
+        width: 100vw;
+        height: 60vh !important;
+    }
+
+    .larger-container {
+        width: 100vw;
+        height: 60vh !important;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 376px) and (min-height: 812px) {
+    .smaller-container {
+        width: 100vw;
+        height: 50vh !important;
+    }
+
+    .larger-container {
+        width: 100vw;
+        height: 50vh !important;
+    }
+    
+}
+
+@media screen and (min-width: 411px) and (max-width: 414px) and (max-height: 823px) {
+    .smaller-container {
+        width: 100vw;
+        height: 55vh !important;
+    }
+
+    .larger-container {
+        width: 100vw;
+        height: 55vh !important;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 414px) and (min-height: 823px) {
+    .smaller-container {
+        width: 100vw;
+        height: 50vh !important;
+    }
+
+    .larger-container {
+        width: 100vw;
+        height: 50vh !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hamburger-menu-styling {
+        display: inline-block;
+        width: 50%;
+        margin-top: 0.65rem;
+        margin-right: 0.5rem;
+    }
+
+    .nav-links p {
+        display: none;
+    }
+
+    .header-margin {
+        margin-top:2rem;
+    }
+
+    .navbar-shadow {
+        box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.05);
+        width: 100%;
+    }
+
+    .name-styling, .name-styling:active, .name-styling:hover {
+        font-family: CaslonGraphique;
+        font-size: 1.5rem;
+        color: black;
+        margin-left: 2.8rem;
+        margin-top: 0.5rem;;
+    }
+    
+    .nav-up {
+        top: -40px; 
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 50px;
+        transition: top 0.2s ease-in-out;
+        background-color: white;
+        z-index: 100;
+    }
+
+    .container-fluid {
+        padding: 0;
+        width: 100%;
+    }
+
+    .dropdown {
+        display: inline-block;
+        width: 48%;
+    }
+
+    .dropdown-toggle::after {
+        display:none;
+    }
+
+    .btn-width {
+        float: right;
+    }
+
+    .mobile-col {
+        width: 48%;
+    }
+
+    .dropdown-menu {
+        width: 113vw;
+        height: 80px;
+        border-style: none;
+        border-radius: 0px;
+        position: absolute;
+        left: -10px;
+    }
+
+    .dropdown-item {
+        font-family: Lato;
+        font-weight: 700;
+        margin-left: 2rem;
+    }
+
+    .dropdown-item:active {
+        background-color: white;
+        color: black;
+    }
+
+    .web-col-left {
+        width: 0;
+    }
+    
+    .web-col-right {
+    }
+
+    .smaller-container {
+        width: 100vw;
+        height: 65vh;
+    }
+
+    .larger-container {
+        width: 100vw;
+        height: 65vh;
+    }
+
+    .blue-background, .peach-background, .orange-background, .purple-background {
+        height: 300px;
+        width: 100vw;
+    }
+
+    .vr-spacing, .hr-spacing {
+        width: 0;
+        height: 0;
+    }
+
+    
+    .project p {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .compair-resizing {
+        width: 70%;
+    }
+
+    .jobs-img {
+        width: 65%;
+        padding-top: 0;
+    }
+
+    .thirtysixtystyling {
+        width: 22%;
+    }
+
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    .hamburger-menu-styling {
+        display: inline-block;
+        width: 30%;
+        margin-top: 0.6rem;
+        margin-right: 2.21rem;
+    }
+
+    .nav-links p {
+        display: none;
+    }
+
+    .navbar-shadow {
+        box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.05);
+        width: 100%;
+    }
+
+    .name-styling, .name-styling:active, .name-styling:hover {
+        font-family: CaslonGraphique;
+        font-size: 1.5rem;
+        color: black;
+        margin-left: 3.2rem;
+        margin-top: 0.5rem;;
+    }
+    
+    .nav-up {
+        top: -40px; 
+    }
+    
+    header {
+        position: fixed;
+        top: 0;
+        left:0;
+        height: 50px;
+        transition: top 0.2s ease-in-out;
+        background-color: white;
+        z-index: 100;
+    }
+
+    .container-fluid {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0;
+    } 
+
+    .project p {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .compair-resizing {
+        width: 50%;
+    }
+
+    .thirtysixtystyling {
+        width: 22%;
+    }
+
+    .container-web {
+        padding-bottom: 0;
+    }
+
+    .dropdown {
+        display: inline-block;
+        width: 48%;
+    }
+
+    .dropdown-toggle::after {
+        display:none;
+    }
+
+    .btn-width {
+        float: right;
+    }
+
+    .mobile-col {
+        width: 25%;
+    }
+
+    .dropdown-menu {
+        width: 110vw;
+        height: 80px;
+        border-style: none;
+        border-radius: 0px;
+        position: absolute;
+        left: -10px;
+    }
+
+    .dropdown-item {
+        font-family: Lato;
+        font-weight: 700;
+        margin-left: 6rem;
+    }
+
+    .dropdown-item:active {
+        background-color: white;
+        color: black;
+    }
+
+    .web-col-left {
+    }
+    
+    .web-col-right {
+    }
+
+    .jobs-img {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+
+    .smaller-container {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .larger-container {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .jobs-img {
+        width: 50%;
+    }
+
+    .blue-background, .peach-background, .orange-background, .purple-background {
+        height: 350px;
+        width: 100vw;
+    }
+
+    .project {
+        width: 100vw;
+    }
+
+    .hr-spacing, .vr-spacing {
+        width: 0;
+        height: 0;
+    }
+}
+
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .vr-spacing {
+        width: 28px;
     }
 }
 
