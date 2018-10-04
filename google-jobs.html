@@ -2,27 +2,37 @@
 <html>
     <head>
         <title>Google Jobs</title>
-        <link rel="icon" href="assets/wavinghand.png">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/jobs.css">
         <meta charset="utf-8">
+        <link rel="icon" href="assets/wavinghand.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
     <body>
-        <div class="container">
+        <div class="container case-container">
             <div class="container-fluid container-web">
                 <header class="header nav-down navbar-shadow">
-                    <div class="row">
-                        <a href="index.html" class="alignment mobile-col web-col-left">
-                            <p class="name-styling">jenn.</p>
-                        </a>
-                        <div class="nav-links alignment web-col-right">
-                            <p><a href="index.html" class="underline">Work</a></p>
-                            <p><a href="about.html" class="underline">About</a></p>
+                        <div class="row">
+                            <a href="index.html" class="alignment mobile-col web-col-left">
+                                <p class="name-styling">jenn.</p>
+                            </a>
+                            <div class="nav-links alignment web-col-right">
+                                <p><a href="index.html" class="underline">Work</a></p>
+                                <p><a href="about.html" class="underline">About</a></p>
+                            </div>
+                            <div class="dropdown mobile-col">
+                                <a class="btn dropdown-toggle btn-width" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/hamburger-menu.svg" class="hamburger-menu-styling">
+                                </a>
+                                <div class="dropdown-menu pull-right" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="index.html">Home</a>
+                                    <a class="dropdown-item" href="about.html">About</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </header> 
+                    </header> 
             </div>
             <div class="case-row">
                 <p class="title">Context</p>
@@ -58,22 +68,22 @@
                 <p class="description">Now that I had identified the problem in it's entirety, I came up with design goals which would help guide the rest of my designs. Having this as a point of reference provides focus, and assures the final product achieves these goals, and not other ones.</p>
                 <div class="goals-block">
                     <div class="row">
-                        <img src="assets/filter.svg" class="col-sm-1 icon-styling">
-                        <div class="col-sm-11">
+                        <img src="assets/filter.svg" class=" icon-styling">
+                        <div class="goals-styling">
                             <p class="goals-title">Organization</p>
                             <p class="goals-description">Information is laid out in a logical order</p>
                         </div>
                     </div>
                     <div class="row">
-                        <img src="assets/simplicity.svg" class="col-sm-1 icon-styling">
-                        <div class="col-sm-11">
+                        <img src="assets/simplicity.svg" class="icon-styling">
+                        <div class="goals-styling">
                             <p class="goals-title">Simplicity</p>
                             <p class="goals-description">Only relevant information is displayed, as every piece of irrelevant information diminishes the value of relevant ones</p>
                         </div>
                     </div>
                     <div class="row">
-                        <img src="assets/feedback.svg" class="col-sm-1 icon-styling">
-                        <div class="col-sm-11">
+                        <img src="assets/feedback.svg" class="icon-styling">
+                        <div class="goals-styling">
                             <p class="goals-title">Feedback</p>
                             <p class="goals-description">The design reflects the choices the user makes</p>
                         </div>
@@ -114,46 +124,46 @@
                 <p class="title">Mockups</p>
             </div>
             <div class="row blue-container video-alignment">
-                <span class="col-sm-5">
+                <div class="vid-block">
                     <p class="video-title">Job Alerts</p>
                     <p class="video-description">A top level "Create an Alert" button means never miss out on your dream job again.</p>
-                </span>
-                <video playsinline autoplay muted loop class="col-sm-7 video-styling">
+                </div>
+                <video playsinline autoplay muted loop class="vid-content  video-styling">
                     <source src="assets/ALERTS.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="row blue-container video-alignment">
-                <span class="col-sm-5">
+                <div class="vid-block">
                     <p class="video-title">Job Postings</p>
                     <p class="video-description">Postings with unified information makes browsing faster, so you can spend more time applying to jobs instead of finding them.</p>
-                </span>
-                <video playsinline autoplay muted loop class="col-sm-7 video-styling">
+                </div>
+                <video playsinline autoplay muted loop class="vid-content  video-styling">
                     <source src="assets/SCROLLING.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="row blue-container video-alignment">
-                <span class="col-sm-5 caption">
+                <div class="vid-block caption">
                     <p class="video-title">Job Description</p>
                     <p class="video-description">Anchored text filters out less relevant information and provides order and structure to a large body of text</p>
-                </span>
-                <video playsinline autoplay muted loop class="col-sm-7 video-styling">
+                </div>
+                <video playsinline autoplay muted loop class="vid-content video-styling">
                         <source src="assets/JOB-DESC.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="row blue-container video-alignment">
-                <span class="col-sm-5">
+                <div class="vid-block">
                     <p class="video-title">Job Filters</p>
                     <p class="video-description">Mapping one filter option to one dropdown menu enhances visibility - you can always see what filters you've applied.</p>
-                </span>
-                <video playsinline autoplay muted loop class="col-sm-7 video-styling">
+                </div>
+                <video playsinline autoplay muted loop class="vid-content video-styling">
                     <source src="assets/FILTERINGPT1.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="row blue-container video-alignment">
-                <span class="col-sm-5">
+                <div class="vid-block">
                     <p class="video-title">Employer Filter</p>
                     <p class="video-description">The new employer menu maps companies to industries, creating a structure that allows you to filter companies based to your interests.</p>
-                </span>
+                </div>
                 <video playsinline autoplay muted loop class="col-sm-7 video-styling">
                     <source src="assets/EMPLOYER.mp4" type="video/mp4">
                 </video>
@@ -166,7 +176,13 @@
                 <p class="emphasis-text">If you've made it this far, thanks for reading!</p>
             </div>
         </div>
+        <div class="scroll-up">
+            <img src="assets/pointing-up.png" class="finger" id="finger-btn" onClick="topFunction()">
+        </div>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>

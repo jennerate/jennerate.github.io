@@ -41,7 +41,7 @@
 
 .title {
     font-family: Circular-Medium;
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: black;
     width: 65%;
     display: block;
@@ -51,7 +51,7 @@
 .description {
     text-align: left;
     font-family: Lato;
-    font-size: 1.75rem;
+    font-size: 1.2rem;
     font-weight: 400;
     color: #38333B;
     width: 65%;
@@ -67,7 +67,7 @@
 .emphasis-text {
     font-family: Lato;
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: 1.2rem;
     color: #38333B;
     width: 65%;
     display: block;
@@ -89,6 +89,7 @@
     font-size: 3rem;
     text-align: right;
     color: white;
+    margin-bottom: 0px;
 }
 
 .video-description {
@@ -257,6 +258,18 @@ li {
     text-align: right;
 }
 
+.scroll-up {
+    position: fixed;
+    bottom: 3rem;
+    right: 0.1rem;
+}
+
+.finger {
+    width: 30%;
+    height: auto;
+    float: center;
+}
+
 .description-text-li {
     font-family: Lato;
     font-weight: 400;
@@ -410,4 +423,43 @@ li {
 
 .navbar-top {
     margin: 5rem;
+}
+
+.dropdown-menu, .hamburger-menu-styling, .dropdown-toggle {
+    display: none;
+}
+
+
+@media screen and (max-height: 500px) {
+    .scroll-up {
+        position: fixed;
+        bottom: 7rem;
+        right: 5.1rem;
+    }
+
+
+    .finger {
+        float: right;
+    }
+}
+
+
+@media screen and (min-height: 501px) and (max-height: 768px) {
+    .case-row {
+        padding: 0;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .dropdown-menu, .hamburger-menu-styling, .dropdown-toggle {
+        display: inline-block;
+    }
+
+    .nav-links p, .underline, .alignment, .web-col-right {
+        display: none;
+    }
+    
 }

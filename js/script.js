@@ -32,11 +32,20 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-// $("#img1").height($("#img2").height());
-// $("#img3").height($("#img2").height());
-// $("#img4").height($("#img2").height());
-// $("#img5").height($("#img2").height());
+window.onscroll = function() {scrollFunction()};
 
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("finger-btn").style.display = "block";
+    } else {
+        document.getElementById("finger-btn").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0; 
+}
 
 Chart.defaults.global.defaultFontFamily = "Lato";
 Chart.defaults.global.defaultFontSize = 12;
