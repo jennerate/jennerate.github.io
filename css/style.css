@@ -521,6 +521,10 @@
     width: 60%;
 }
 
+.img-resizing-block:hover {
+    transform: scale(1.5);
+}
+
 /*  */
 
 /*  */
