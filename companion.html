@@ -2,275 +2,289 @@
 <html>
     <head>
         <title>Companion</title>
-        <link rel="icon" href="assets/wavinghand.png">
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="css/jobs.css">
         <meta charset="utf-8">
+        <link rel="icon" href="assets/wavinghand.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
     <body>
-        <div class="container">
+        <div class="container case-container">
             <div class="container-fluid container-web">
                 <header class="header nav-down navbar-shadow">
-                    <div class="row">
-                        <a href="index.html" class="alignment mobile-col web-col-left">
-                            <p class="name-styling">jenn.</p>
-                        </a>
-                        <div class="nav-links alignment web-col-right">
-                            <p><a href="index.html" class="underline">Work</a></p>
-                            <p><a href="about.html" class="underline">About</a></p>
+                        <div class="row">
+                            <a href="index.html" class="alignment mobile-col web-col-left">
+                                <p class="name-styling">jenn.</p>
+                            </a>
+                            <div class="nav-links alignment web-col-right">
+                                <p><a href="index.html" class="underline">Work</a></p>
+                                <p><a href="about.html" class="underline">About</a></p>
+                            </div>
+                            <div class="dropdown mobile-col">
+                                <a class="btn dropdown-toggle btn-width" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/hamburger-menu.svg" class="hamburger-menu-styling">
+                                </a>
+                                <div class="dropdown-menu pull-right" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="index.html">Home</a>
+                                    <a class="dropdown-item" href="about.html">About</a>
+                                </div>
+                            </div>
                         </div>
+                    </header> 
+                </div>
+                <div class="case-row">
+                    <p class="title">Context</p>
+                    <p class="description">This project was done during a 6-week course at Emily Carr. I was given the topic “Sauder”, the commerce faculty at the University of British Columbia (UBC), as a jumping off point to create a mobile application.</p>
+                    <p class="title">Roles & Responsibilities</p>
+                    <p class="description">While there were a few deliverables, this project was almost entirely self directed. I was responsible for research, paper prototyping, usability testing, low and high fidelity mock ups, and visual design.</p>
+                </div>
+                <div class="case-row">
+                    <p class="title">Diverging & Converging</p>
+                    <p class="description">To explore my given topic, I began by brainstorming UBC related issues for 10 minutes. There were a few areas I wanted to explore and I wanted to keep track of my ideas without worrying too much about how they would visually appear on paper (which I have learned, slows me down). Sticky notes are fantastic for this reason.</p>
+                    <p class="description">Working under a time constraint is always anxiety inducing — so much so that it can paralyze thought. But by giving myself a fixed amount of time to diverge my thoughts, I was able to recall most significant issues and exclude ones that were less important. By using affinity mapping, I grouped similar issues together. This was incredibly useful for finding connections in and between groups. For example, I realized that long wait times are not exclusive to UBC’s counselling office, but in other universities as well. This served as a jumping off point for forming assumptions about pain points that I could later validate or reject by talking to users.</p>
+                    <img src="assets/affinity-mapping-ubc.jpeg" class="img-resizing-65 img-shadowing">
+                </div>
+                <div class="case-row">
+                    <p class="title">Problem Definition</p>
+                    <p class="description">A clear winner emerged after this empathy exercise, and I came up with a problem statement to help guide my designs.</p>
+                    <img src="assets/problem-statement-ubc.png" class="img-resizing-65 ">
+                </div>
+                <div class="case-row">
+                    <p class="title">Looking at Precedents</p>
+                    <p class="description">One year ago, I didn’t know there were issues with UBC Counselling until I saw <a href="https://www.ubyssey.ca/news/the-story-behind-the-two-week-ubc-counselling-wait/" class="hovering-a">this</a> article and <a href="https://www.reddit.com/r/UBC/comments/57bm7v/so_i_visited_ubc_counselling/" class="hovering-a">this</a> Reddit post detailing JangsJudgement’s experience. To put things into perspective, the article states:</p>
+                    <p class="description-quote">"When a student experiences these longer wait times — the wait isn’t consistently several weeks long — they are a result of a massive increase in demand for the counselling service. According to statistics from UBC Counselling, in 2015, 954 students were seen from September 1 to November 2. This year’s numbers, in that same two-month time span, jumped up by over 300 students, with 1,259 individuals seeking counselling. The service also sees a significant spike in demand during midterms and finals season."</p>
+                    <p class="description">The reception this article received (a high number of upvotes and responses) provided insight on the popularity and severity of the issue. I wanted to take all of this data and condense JangJudgement’s experience into a Journey Map, where I could organize and examine pain points and opportunities in greater detail.</p>
+                </div>
+                <div class="case-row">
+                    <p class="title">Journey Map</p>
+                    <p class="description">JangsJudgement’s process was broken down into 5 major steps, which laid in accordance with the counselling process outlined on UBC’s website. This includes:</p>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Acknowledgement: </p>
+                        <p class="description-text-li">Knowing they need help</p>
                     </div>
-                </header> 
-            </div>
-            <div class="case-row">
-                <p class="title">Context</p>
-                <p class="description">This project was done during a 6-week course at Emily Carr. I was given the topic “Sauder”, the commerce faculty at the University of British Columbia (UBC), as a jumping off point to create a mobile application.</p>
-                <p class="title">Roles & Responsibilities</p>
-                <p class="description">While there were a few deliverables, this project was almost entirely self directed. I was responsible for research, paper prototyping, usability testing, low and high fidelity mock ups, and visual design.</p>
-            </div>
-            <div class="case-row">
-                <p class="title">Diverging & Converging</p>
-                <p class="description">To explore my given topic, I began by brainstorming UBC related issues for 10 minutes. There were a few areas I wanted to explore and I wanted to keep track of my ideas without worrying too much about how they would visually appear on paper (which I have learned, slows me down). Sticky notes are fantastic for this reason.</p>
-                <p class="description">Working under a time constraint is always anxiety inducing — so much so that it can paralyze thought. But by giving myself a fixed amount of time to diverge my thoughts, I was able to recall most significant issues and exclude ones that were less important. By using affinity mapping, I grouped similar issues together. This was incredibly useful for finding connections in and between groups. For example, I realized that long wait times are not exclusive to UBC’s counselling office, but in other universities as well. This served as a jumping off point for forming assumptions about pain points that I could later validate or reject by talking to users.</p>
-                <img src="assets/affinity-mapping-ubc.jpeg" class="img-resizing-65 img-shadowing">
-            </div>
-            <div class="case-row">
-                <p class="title">Problem Definition</p>
-                <p class="description">A clear winner emerged after this empathy exercise, and I came up with a problem statement to help guide my designs.</p>
-                <img src="assets/problem-statement-ubc.png" class="img-resizing-65 ">
-            </div>
-            <div class="case-row">
-                <p class="title">Looking at Precedents</p>
-                <p class="description">One year ago, I didn’t know there were issues with UBC Counselling until I saw <a href="https://www.ubyssey.ca/news/the-story-behind-the-two-week-ubc-counselling-wait/" class="hovering-a">this</a> article and <a href="https://www.reddit.com/r/UBC/comments/57bm7v/so_i_visited_ubc_counselling/" class="hovering-a">this</a> Reddit post detailing JangsJudgement’s experience. To put things into perspective, the article states:</p>
-                <p class="description-quote">"When a student experiences these longer wait times — the wait isn’t consistently several weeks long — they are a result of a massive increase in demand for the counselling service. According to statistics from UBC Counselling, in 2015, 954 students were seen from September 1 to November 2. This year’s numbers, in that same two-month time span, jumped up by over 300 students, with 1,259 individuals seeking counselling. The service also sees a significant spike in demand during midterms and finals season."</p>
-                <p class="description">The reception this article received (a high number of upvotes and responses) provided insight on the popularity and severity of the issue. I wanted to take all of this data and condense JangJudgement’s experience into a Journey Map, where I could organize and examine pain points and opportunities in greater detail.</p>
-            </div>
-            <div class="case-row">
-                <p class="title">Journey Map</p>
-                <p class="description">JangsJudgement’s process was broken down into 5 major steps, which laid in accordance with the counselling process outlined on UBC’s website. This includes:</p>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Acknowledgement: </p>
-                    <p class="description-text-li">Knowing they need help</p>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Arrival: </p>
+                        <p class="description-text-li"> Arriving to the counselling building and completing a 15 to 20 minute questionnaire</p>
+                    </div>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Waiting: </p>
+                        <p class="description-text-li"> Waiting 2 weeks for their appointment. Note, the wait time is calculated by the severity of their needs (i.e, Are they suicidal? Have they recently experienced an assault? Are they currently in a crisis?)</p>
+                    </div>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Wellness Planning: </p>
+                        <p class="description-text-li"> Going into the counselling office to meet a counsellor to help make a wellness plan</p>
+                    </div>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Plan begins: </p>
+                        <p class="description-text-li"> At this point, JangsJudgement begins scheduling follow up appointments to receive the help they need</p>
+                    </div>
+                    <img src="assets/journey-map.jpeg" class="img-resizing-block img-shadowing">
+                    <p class="description">Mapping emotions to stages in JangsJudgement’s journey identified user <b>pain points</b>:</p>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Acknowledgement: </p>
+                        <p class="description-text-li">Buffers are created when users are forced to travel (to the counselling office) and limited to restricted times (8:30AM — 4:30PM Monday through Friday)</p>
+                    </div>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Arrival: </p>
+                        <p class="description-text-li">Users are not expecting to fill in a questionnaire upon arrival</p>
+                    </div>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Waiting: </p>
+                        <p class="description-text-li">Users have to wait not only a long time, but an unpredictable amount of time before they have access to a counsellor</p>
+                    </div>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Wellness Planning: </p>
+                        <p class="description-text-li">Wellness plans include information that is already available online</p>
+                    </div>
+                    <div class="row li-row">
+                        <p class="emphasis-text-li">Plan begins: </p>
+                        <p class="description-text-li">Help has arrived, but far too late for the user</p>
+                    </div>
                 </div>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Arrival: </p>
-                    <p class="description-text-li"> Arriving to the counselling building and completing a 15 to 20 minute questionnaire</p>
+                <div class="case-row">
+                    <p class="title">Testing the Pain Points</p>
+                    <p class="description">I wanted to test these pain points to see if they could be symptoms of larger, overarching issues. At this point, I felt that I haven’t empathized with my users enough. I wanted to determine the significance and priority of each pain point.</p>
                 </div>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Waiting: </p>
-                    <p class="description-text-li"> Waiting 2 weeks for their appointment. Note, the wait time is calculated by the severity of their needs (i.e, Are they suicidal? Have they recently experienced an assault? Are they currently in a crisis?)</p>
+                <div class="case-row">
+                    <p class="title">Survey</p>
+                    <p class="description">To get insights from users, I created and posted this survey to the UBC subreddit, a community dedicated to UBC related issues, and received 24 submissions. Here’s what I learned:</p>
                 </div>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Wellness Planning: </p>
-                    <p class="description-text-li"> Going into the counselling office to meet a counsellor to help make a wellness plan</p>
+                <div class="chart-row">
+                    <div class="chart-container">
+                        <p class="question">How long did you wait between knowing you needed help and dropping in for an appointment?</p>
+                        <p class="insight">Pain Point: Most students do not seek help immediately.</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="timeChart"width="200px" height="200px"></canvas>
+                    </div>
                 </div>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Plan begins: </p>
-                    <p class="description-text-li"> At this point, JangsJudgement begins scheduling follow up appointments to receive the help they need</p>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">If your response to the last question was NOT within the day, what factors prevented you from going in that day?</p>
+                        <p class="insight">Pain Point: Personal schedules do not line up with counselling office hours.</p>
+                    </div>
+                    <div class="chart-container col-sm-6">
+                        <canvas id="preventionChart" width="200px" height="200px"></canvas>
+                    </div>
                 </div>
-                <img src="assets/journey-map.jpeg" class="img-resizing-block img-shadowing">
-                <p class="description">Mapping emotions to stages in JangsJudgement’s journey identified user <b>pain points</b>:</p>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Acknowledgement: </p>
-                    <p class="description-text-li">Buffers are created when users are forced to travel (to the counselling office) and limited to restricted times (8:30AM — 4:30PM Monday through Friday)</p>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">Are you aware you have to fill in a questionnaire when you visit the counseling office?</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="assessmentChart" width="200px" height="200px"></canvas>
+                    </div>
                 </div>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Arrival: </p>
-                    <p class="description-text-li">Users are not expecting to fill in a questionnaire upon arrival</p>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">Would you consider Brock Hall (where the counselling services are) to be in a convenient location?</p>
+                        <p class="insight">Insight: I learned that the location was not as inconvenient as I personally thought it was.</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="location" width="200px" height="200px"></canvas>
+                    </div>
                 </div>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Waiting: </p>
-                    <p class="description-text-li">Users have to wait not only a long time, but an unpredictable amount of time before they have access to a counsellor</p>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">If you were to drop by UBC Counselling, would you expect to receive help that day?</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="helpThatDay" width="200px" height="200px"></canvas>
+                    </div>
                 </div>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Wellness Planning: </p>
-                    <p class="description-text-li">Wellness plans include information that is already available online</p>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">If you were to drop by UBC Counselling, would you expect to pay?</p>
+                        <p class="insight">Pain Point: Most students are unaware of the costs associated with counselling.</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="payChart" width="200px" height="200px"></canvas>
+                    </div>
                 </div>
-                <div class="row li-row">
-                    <p class="emphasis-text-li">Plan begins: </p>
-                    <p class="description-text-li">Help has arrived, but far too late for the user</p>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">If you have gone to UBC Counselling, how long did it take to see a counsellor?</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="timeTakenChart" width="200px" height="200px"></canvas>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">Have you ever tried interactive or online mental health related tools (MindCheck, MindShift, HeadSpace)?</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="resources" width="200px" height="200px"></canvas>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">If your answer to the previous question was no, why not?</p>
+                        <p class="insight">Pain Point: The visibility of mental health resources is an issue.</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="followUp" width="200px" height="200px"></canvas>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">If you have gone to UBC counselling, how helpful was the wellness plan you made with your counselor? (1 - not helpful, 10 - extremely helpful)</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="wellnessPlan" width="200px" height="200px"></canvas>
+                    </div>
+                </div>
+                <div class="chart-row">
+                    <div class="col-sm-6">
+                        <p class="question">Are you satisfied with UBC Counselling overall?</p>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="satisfaction" width="200px" height="200px"></canvas>
+                    </div>
+                </div>
+                <p class="description">Surveys are valuable because they can not only validate assumptions, but also disprove them. Travelling to the counselling office is a pain point in JangsJudgement’s experience, but paled in comparison to the general response, who did not consider the location of the office as inconvenient. The more I talked to users, the more I understood their pain points.</p>
+                <div class="case-row">
+                    <p class="title">Value Proposition Canvas</p>
+                    <img src="assets/value-prop.jpeg" class="img-resizing-block">
+                    <p class="description">I had a great understanding of grievances in the current process, but lacked an outline of opportunities. I wanted to ideate quickly, and in a manner that helped me draw connections between user stories and gain creators. Naturally, the value proposition canvas seemed like a great place to start. Using this canvas helped me map out a pain relieving or gain creating feature to pains and gains respectively. It helped with prioritizing necessary features over ones that were nice to have.</p>
+                </div>
+                <div class="case-row">
+                    <p class="title">User Flow Chart</p>
+                    <p class="description">Outlining the flow from beginning to end ensured important processes were both complete and included. It helped with visualizing entry points to key features, such as the wellness plan and bookmarking resources, to ensure they were accessible throughout the flow.</p>
+                    <img src="assets/task-flow.png" class="img-resizing-block">
+                </div>
+                <div class="case-row">
+                    <p class="title">Paper Prototyping</p>
+                    <p class="description">I was finally in a good position to create some low fidelity wireframes. Paper prototyping is a fast way to get ideas out. This process is inherently messy — the boxes are uneven, the lines are wobbly, and the images are squares. The process would deter some, but I find that abstract looking screens are evaluated more on their function than their appearance. Paper prototyping prevents commitment to any user interface before the foundation is laid out, promoting better user experiences.</p>
+                    <img src="assets/paper-prototyping.jpeg" class="img-resizing-block">
+                    <p class="description">I went through variations of the prototype with 4 individuals, who provided a stream of consciousness as they navigated through different parts of the flow. After each individual, I made iterations to the prototype and presented them to the next. The biggest challenge was knowing when to stop and move onto wireframes. I had to ask myself what I was trying to achieve in this process and what should a successful prototype do or prove. At this stage, I wanted to ensure my user flow made sense not only in paper, but also in practice. Paper prototyping helped to flesh out issues related to that.</p>
+                </div>
+                <div class="case-row">
+                    <p class="title">Wireframing</p>
+                    <img src="assets/wireframing.png" class="img-resizing-block">
+                    <p class="description">Although I wanted to go straight into high fidelity mock ups, I knew I wasn’t ready. I tested many aspects of my application, but nothing on usability. My paper prototypes captured the essence of the interface, but not the interface itself. I did some quick wireframing through Adobe XD and presented it to over 10 people. You can view the prototype <a href="https://xd.adobe.com/view/366403a6-48a9-42ef-4a22-2703b1ca0220-4055/" class="hovering-a">here.</a></p>
+                </div>
+                <div class="case-row">
+                    <p class="title">Style Tile</p>
+                    <p class="description">I created a style tile to guide my designs — this was really helpful for inspiration and ensuring visual consistency. I wanted to use hand drawn illustrations to give a friendly feel to the app (I also love doing these illustrations!). I used colors from UBC’s official <a href="http://assets.brand.ubc.ca/downloads/ubc_visual_identity_guide.pdf" class="hovering-a">style guide</a> to create an association between this app and the school.</p>
+                    <img src="assets/style-tile.jpg" class="img-resizing-block">
+                </div>
+                <div class="case-row">
+                    <p class="title">Final Product</p>
+                    <p class="description">Finally! I made a prototype in Protopie that replicated the look and feel of the app. Using transitions helps indicate a change in state. I presented this to the same group in the paper protoyping phase and received more feedback on the visibility of certain features. For example, the bottom tab bar went through several iterations with different colors and styles to promote visibility without distracting users from their normal experience. As you view these different gifs, notice that they touch on the biggest pains that we’ve established from the survey above (appointment times and visibility of resources).</p>
+                </div>
+                <div class="case-row light-blue-background">
+                    <video playsinline autoplay muted loop class="video-styling-companion">
+                        <source src="assets/wellness.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="case-row">
+                    <p class="description">As determined by our survey, 58% of users were unaware of mental health apps for a variety of reasons. Taking information from the questionnaire directs users to resources that are the best fit for them, so that users can see the resources when they need them. This helps with visibility, and ensures that this information is no longer lost in a vast library of resources.</p>
+                </div>
+                <div class="case-row light-blue-background">
+                    <video playsinline autoplay muted loop class="video-styling-companion">
+                        <source src="assets/bookingappt.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="case-row">
+                    <p class="description">Booking appointments is a huge issue at UBC Counselling — 23% of survey respondents could not find appointment times that worked for their schedule. Instead of just having access to UBC counsellors, users now have access to the network of counsellors in the Greater Vancouver area.</p>
+                </div>
+                <div class="case-row">
+                    <video playsinline autoplay muted loop class="video-styling-companion">
+                        <source src="assets/resched.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="case-row"></div>
+                <div class="case-row">
+                    <video playsinline autoplay muted loop class="video-styling-companion">
+                        <source src="assets/cancellation.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="case-row">
+                    <p class="description">Mental health issues take a strain on our users; often, it’s difficult to attend classes or leave the house, which is why rescheduling appointments can be done in one centralized area. Less steps in this process promote accountability.</p>
+                </div>
+                <div class="case-row">
+                    <video playsinline autoplay muted loop class="video-styling-companion">
+                        <source src="assets/Questionnaires.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="case-row">
+                    <p class="description">The form is long, so to increase a higher level of completion, users can save the survey and return to it so that no data is lost in the meantime.</p>
+                    <p class="description">Now that the form is online, users don’t have to wait to drop in during counselling hours to complete it. This reduces the amount of time it takes to not only seek help, but receive access to it.</p>
+                </div>
+                <div class="case-row">
+                    <p class="title">Final Thoughts & Reflections</p>
+                    <p class="description">Overall, I’m pretty happy with the way this project turned out. Because this was such a large undertaking, I really wish I could revisit some areas related to the questionnaire and explore ways to improve that user experience.</p>
+                    <p class="description">Don’t worry about how things look when ideating. At this stage, it’s more important to capture your thoughts than visually design them. It prevents you from committing to ideas for their look instead of their function.</p>
+                    <p class="description">It’s important to empathize with users, but don’t forget to actually talk to them. And talk to MANY of them. Your users will have different priorities, and you need to explore the significance each issue holds.</p>
+                    <p class="emphasis-text">If you've made it this far, thanks for reading!</p>
                 </div>
             </div>
-            <div class="case-row">
-                <p class="title">Testing the Pain Points</p>
-                <p class="description">I wanted to test these pain points to see if they could be symptoms of larger, overarching issues. At this point, I felt that I haven’t empathized with my users enough. I wanted to determine the significance and priority of each pain point.</p>
-            </div>
-            <div class="case-row">
-                <p class="title">Survey</p>
-                <p class="description">To get insights from users, I created and posted this survey to the UBC subreddit, a community dedicated to UBC related issues, and received 24 submissions. Here’s what I learned:</p>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">How long did you wait between knowing you needed help and dropping in for an appointment?</p>
-                    <p class="insight">Pain Point: Most students do not seek help immediately.</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="timeChart"width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">If your response to the last question was NOT within the day, what factors prevented you from going in that day?</p>
-                    <p class="insight">Pain Point: Personal schedules do not line up with counselling office hours.</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="preventionChart" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">Are you aware you have to fill in a questionnaire when you visit the counseling office?</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="assessmentChart" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">Would you consider Brock Hall (where the counselling services are) to be in a convenient location?</p>
-                    <p class="insight">Insight: I learned that the location was not as inconvenient as I personally thought it was.</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="location" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">If you were to drop by UBC Counselling, would you expect to receive help that day?</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="helpThatDay" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">If you were to drop by UBC Counselling, would you expect to pay?</p>
-                    <p class="insight">Most students are unaware of the costs associated with counselling.</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="payChart" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">If you have gone to UBC Counselling, how long did it take to see a counsellor?</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="timeTakenChart" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">Have you ever tried interactive or online mental health related tools (MindCheck, MindShift, HeadSpace)?</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="resources" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">If your answer to the previous question was no, why not?</p>
-                    <p class="insight">Pain Point: The visibility of mental health resources is an issue.</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="followUp" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">If you have gone to UBC counselling, how helpful was the wellness plan you made with your counselor? (1 - not helpful, 10 - extremely helpful)</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="wellnessPlan" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <div class="chart-row">
-                <div class="col-sm-6">
-                    <p class="question">Are you satisfied with UBC Counselling overall?</p>
-                </div>
-                <div class="chart-container col-sm-6">
-                    <canvas id="satisfaction" width="200px" height="200px"></canvas>
-                </div>
-            </div>
-            <p class="description">Surveys are valuable because they can not only validate assumptions, but also disprove them. Travelling to the counselling office is a pain point in JangsJudgement’s experience, but paled in comparison to the general response, who did not consider the location of the office as inconvenient. The more I talked to users, the more I understood their pain points.</p>
-            <div class="case-row">
-                <p class="title">Value Proposition Canvas</p>
-                <img src="assets/value-prop.jpeg" class="img-resizing-block">
-                <p class="description">I had a great understanding of grievances in the current process, but lacked an outline of opportunities. I wanted to ideate quickly, and in a manner that helped me draw connections between user stories and gain creators. Naturally, the value proposition canvas seemed like a great place to start. Using this canvas helped me map out a pain relieving or gain creating feature to pains and gains respectively. It helped with prioritizing necessary features over ones that were nice to have.</p>
-            </div>
-            <div class="case-row">
-                <p class="title">User Flow Chart</p>
-                <p class="description">Outlining the flow from beginning to end ensured important processes were both complete and included. It helped with visualizing entry points to key features, such as the wellness plan and bookmarking resources, to ensure they were accessible throughout the flow.</p>
-                <img src="assets/task-flow.png" class="img-resizing-block">
-            </div>
-            <div class="case-row">
-                <p class="title">Paper Prototyping</p>
-                <p class="description">I was finally in a good position to create some low fidelity wireframes. Paper prototyping is a fast way to get ideas out. This process is inherently messy — the boxes are uneven, the lines are wobbly, and the images are squares. The process would deter some, but I find that abstract looking screens are evaluated more on their function than their appearance. Paper prototyping prevents commitment to any user interface before the foundation is laid out, promoting better user experiences.</p>
-                <img src="assets/paper-prototyping.jpeg" class="img-resizing-block">
-                <p class="description">I went through variations of the prototype with 4 individuals, who provided a stream of consciousness as they navigated through different parts of the flow. After each individual, I made iterations to the prototype and presented them to the next. The biggest challenge was knowing when to stop and move onto wireframes. I had to ask myself what I was trying to achieve in this process and what should a successful prototype do or prove. At this stage, I wanted to ensure my user flow made sense not only in paper, but also in practice. Paper prototyping helped to flesh out issues related to that.</p>
-            </div>
-            <div class="case-row">
-                <p class="title">Wireframing</p>
-                <img src="assets/wireframing.png" class="img-resizing-block">
-                <p class="description">Although I wanted to go straight into high fidelity mock ups, I knew I wasn’t ready. I tested many aspects of my application, but nothing on usability. My paper prototypes captured the essence of the interface, but not the interface itself. I did some quick wireframing through Adobe XD and presented it to over 10 people. You can view the prototype <a href="https://xd.adobe.com/view/366403a6-48a9-42ef-4a22-2703b1ca0220-4055/" class="hovering-a">here.</a></p>
-            </div>
-            <div class="case-row">
-                <p class="title">Style Tile</p>
-                <p class="description">I created a style tile to guide my designs — this was really helpful for inspiration and ensuring visual consistency. I wanted to use hand drawn illustrations to give a friendly feel to the app (I also love doing these illustrations!). I used colors from UBC’s official <a href="http://assets.brand.ubc.ca/downloads/ubc_visual_identity_guide.pdf" class="hovering-a">style guide</a> to create an association between this app and the school.</p>
-                <img src="assets/style-tile.jpg" class="img-resizing-block">
-            </div>
-            <div class="case-row">
-                <p class="title">Final Product</p>
-                <p class="description">Finally! I made a prototype in Protopie that replicated the look and feel of the app. Using transitions helps indicate a change in state. I presented this to the same group in the paper protoyping phase and received more feedback on the visibility of certain features. For example, the bottom tab bar went through several iterations with different colors and styles to promote visibility without distracting users from their normal experience. As you view these different gifs, notice that they touch on the biggest pains that we’ve established from the survey above (appointment times and visibility of resources).</p>
-            </div>
-            <div class="case-row light-blue-background">
-                <video playsinline autoplay muted loop class="video-styling-companion">
-                    <source src="assets/wellness.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="case-row">
-                <p class="description">As determined by our survey, 58% of users were unaware of mental health apps for a variety of reasons. Taking information from the questionnaire directs users to resources that are the best fit for them, so that users can see the resources when they need them. This helps with visibility, and ensures that this information is no longer lost in a vast library of resources.</p>
-            </div>
-            <div class="case-row light-blue-background">
-                <video playsinline autoplay muted loop class="video-styling-companion">
-                    <source src="assets/bookingappt.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="case-row">
-                <p class="description">Booking appointments is a huge issue at UBC Counselling — 23% of survey respondents could not find appointment times that worked for their schedule. Instead of just having access to UBC counsellors, users now have access to the network of counsellors in the Greater Vancouver area.</p>
-            </div>
-            <div class="case-row light-blue-background">
-                <video playsinline autoplay muted loop class="video-styling-companion">
-                    <source src="assets/resched.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="case-row"></div>
-            <div class="case-row light-blue-background">
-                <video playsinline autoplay muted loop class="video-styling-companion">
-                    <source src="assets/cancellation.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="case-row">
-                <p class="description">Mental health issues take a strain on our users; often, it’s difficult to attend classes or leave the house, which is why rescheduling appointments can be done in one centralized area. Less steps in this process promote accountability.</p>
-            </div>
-            <div class="case-row light-blue-background">
-                <video playsinline autoplay muted loop class="video-styling-companion">
-                    <source src="assets/Questionnaires.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="case-row">
-                <p class="description">The form is long, so to increase a higher level of completion, users can save the survey and return to it so that no data is lost in the meantime.</p>
-                <p class="description">Now that the form is online, users don’t have to wait to drop in during counselling hours to complete it. This reduces the amount of time it takes to not only seek help, but receive access to it.</p>
-            </div>
-            <div class="case-row">
-                <p class="title">Final Thoughts & Reflections</p>
-                <p class="description">Overall, I’m pretty happy with the way this project turned out. Because this was such a large undertaking, I really wish I could revisit some areas related to the questionnaire and explore ways to improve that user experience.</p>
-                <p class="description">Don’t worry about how things look when ideating. At this stage, it’s more important to capture your thoughts than visually design them. It prevents you from committing to ideas for their look instead of their function.</p>
-                <p class="description">It’s important to empathize with users, but don’t forget to actually talk to them. And talk to MANY of them. Your users will have different priorities, and you need to explore the significance each issue holds.</p>
-                <p class="emphasis-text">If you've made it this far, thanks for reading!</p>
-            </div>
+        </div>
+        <div class="scroll-up">
+            <img src="assets/pointing-up.png" class="finger" id="finger-btn" onClick="topFunction()">
         </div>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
