@@ -686,6 +686,12 @@
     width: 55%;
 }
 
+.slide-styling {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 1rem;
+}
+
 /*  */
 @media screen and (min-width: 320px) and (max-width: 321px) {
     .smaller-container {
