@@ -10,6 +10,7 @@
     src: url(../types/CaslonGraphiqueSHOP-Reg.otf);
 }
 
+
 .intro-paragraph {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -54,7 +55,7 @@
     display: block;
     margin: auto;
     margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
+    margin-top: 0.5rem; 
 }
 
 .white-bg {
@@ -206,7 +207,7 @@
 }
 
 .companion-img {
-    width: 21%;
+    width: 15%;
     height: auto;
     display: block;
     margin: auto;
@@ -277,7 +278,6 @@
 }
 
 .project-description {
-    /* displasy:none; */
     font-family: "Circular-Medium";
     font-size: 1rem;
 }
